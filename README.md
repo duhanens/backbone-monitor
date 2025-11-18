@@ -1,16 +1,43 @@
-# React + Vite
+# Global Backbone Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time dashboard to monitor the status of major internet infrastructure providers like Cloudflare, AWS, Google Cloud, and Azure.
 
-Currently, two official plugins are available:
+**Live Demo:** [https://backbone-monitor.vercel.app/](https://backbone-monitor.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* **Live Status Monitoring:** Visual indicators for Online, Degraded, or Down statuses.
+* **Regional Breakdown:** Check specific status for US, Europe, and Asia regions.
+* **Event Logs:** Real-time activity feed with filtering options (Critical, Warning, Info).
+* **Export Data:** Download system logs as CSV or JSON files.
+* **Responsive Design:** Fully responsive dark-mode UI built with Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* **Framework:** React + Vite
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Deployment:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/duhanens/backbone-monitor.git](https://github.com/duhanens/backbone-monitor.git)
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Note
+
+This project is a frontend simulation designed for demonstration purposes. Due to browser security policies (CORS), it does not ping the actual servers in real-time but simulates realistic network behavior and latency.
+
+## License
+
+MIT License.
