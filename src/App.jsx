@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Activity, Server, Globe, Shield, RefreshCw, AlertTriangle, Clock, Zap, ExternalLink, MapPin, Filter, Layers, XCircle, Download, FileJson, FileSpreadsheet } from 'lucide-react';
 
-// Başlangıç Verisi
 const INITIAL_SERVICES = [
   { 
     id: 1, 
